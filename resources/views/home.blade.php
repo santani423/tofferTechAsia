@@ -1,511 +1,360 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+@include('layouts.master')
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TOFFEL TECH ASIA</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/logo/faficon.png') }}" />
-    <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
-    <!-- Mean menu css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.css') }}" />
-    <!-- All min css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}" />
-    <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}" />
-    <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}" />
-    <!-- Animate css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" />
-    <!-- Nice select css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}" />
-    <!-- Style css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
-</head>
-
-<body style="background-color: white">
-    <!-- Preloader area start -->
-    <!-- <div class="loading">
-        <span class="text-capitalize">L</span>
-        <span>o</span>
-        <span>a</span>
-        <span>d</span>
-        <span>i</span>
-        <span>n</span>
-        <span>g</span>
-    </div> -->
-    <!-- <div id="preloader">
-    </div> -->
-    <!-- Preloader area end -->
-
-    <!-- Mouse cursor area start here -->
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
-    <!-- Mouse cursor area end here -->
-
-    <!-- Header area start here -->
-    <header class="header-area header-three-area">
-        <div class="container header__container">
-            <div class="header__main">
-                <a href="index.html" class="logo">
-                    <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
-                </a>
-                <div class="main-menu">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="portofolio.html">Portofolio</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-                <div class="d-none d-xl-flex gap-4">
-                    <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px; ">GET IN TOUCH</a>
-                </div>
-                <div class="bars d-block d-lg-none">
-                    <i id="openButton" class="fa-solid fa-bars"></i>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header area end here -->
-
-    <!-- Sidebar area start here -->
-    <div id="targetElement" class="sidebar-area sidebar__hide light-area">
-        <div class="sidebar__overlay"></div>
-        <a href="index.html" class="logo mb-40">
-            <img src="{{ asset('assets/images/logo/logo.svg') }}" alt="logo" />
-      </a>
-       
-      <div class="mobile-menu overflow-hidden"></div>
-      
-    
-        <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px;  ">GET IN TOUCH</a> 
-      
-      <button id="closeButton" class="text-white">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-    </div>
-    <!-- Sidebar area end here -->
-
-    <!-- Fullscreen search area start here -->
-    <div class="search-wrap">
-      <div class="search-inner">
-        <div class="row">
-          <div class="col-md-6 text-white"><h2>Our Service</h2></div>
-          <div class="col-md-6"></div>
-        </div>
-      </div>
-    </div>
-    <!-- Fullscreen search area end here -->
-
+@section('name', 'TOFFEL TECH ASIA1')
+@section('content')
     <main>
-      <!-- Banner area start here -->
-      <section class="banner-two-area">
-        <div class="banner-two__line">
-          <!-- <img
-            class="sway_Y__animation"
-            src="{{ asset('assets/images/banner/banner-line.png') }}"
-                alt="shape" /> -->
-    </div>
-    <div class="swiper banner__slider">
-        <div
-            class="swiper-wrapper"
-            style="
+        <!-- Banner area start here -->
+        <section class="banner-two-area">
+            <div class="banner-two__line">
+                <!-- <img
+                    class="sway_Y__animation"
+                    src="{{ asset('assets/images/banner/banner-line.png') }}"
+                        alt="shape" /> -->
+            </div>
+            <div class="swiper banner__slider">
+                <div class="swiper-wrapper"
+                    style="
                     background-image: url('{{ asset('assets/images/hompage/17935-%5BConverted%5D-edit%202.png') }}');
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
                 ">
-            <div class="swiper-slide">
-                <div class="container">
-                    <div class="banner-two__content text-center">
-                        <h1
-                            data-animation="fadeInUp"
-                            data-delay=".5s"
-                            style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
-                            Turning ideas Into Realitu
-                        </h1>
-                        <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                            Our development team utilizes the latest technology to
-                            ensure that your applications are high performing and
-                            user-friendly. which meets the highest standards
-                        </p>
-                        <div
-                            style="
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 50%;
-                    background-color: white;
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                  "
-                            class="mt-5">
-                            <i class="fa-solid fa-arrow-down" style="color: black"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="container">
-                    <div class="banner-two__content text-center">
-                        <!-- <h4
-                    data-animation="fadeInUp"
-                    data-delay=".3s"
-                    class="text-white mb-20"
-                  >
-                    TECHNOLOGY RELETED CONSULTANCY
-                  </h4> -->
-                        <h1
-                            data-animation="fadeInUp"
-                            data-delay=".5s"
-                            style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
-                            Turning ideas Into Realitu
-                        </h1>
-                        <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                            Our development team utilizes the latest technology to
-                            ensure that your applications are high performing and
-                            user-friendly. which meets the highest standards
-                        </p>
-                        <div
-                            style="
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 50%;
-                    background-color: white;
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                  "
-                            class="mt-5">
-                            <i class="fa-solid fa-arrow-down" style="color: black"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="container">
-                    <div class="banner-two__content text-center">
-                        <!-- <h4
-                    data-animation="fadeInUp"
-                    data-delay=".3s"
-                    class="text-white mb-20"
-                  >
-                    TECHNOLOGY RELETED CONSULTANCY
-                  </h4> -->
-                        <h1
-                            data-animation="fadeInUp"
-                            data-delay=".5s"
-                            style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
-                            Turning ideas Into Realitu
-                        </h1>
-                        <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                            Our development team utilizes the latest technology to
-                            ensure that your applications are high performing and
-                            user-friendly. which meets the highest standards
-                        </p>
-                        <div
-                            style="
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 50%;
-                    background-color: white;
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                  "
-                            class="mt-5">
-                            <i class="fa-solid fa-arrow-down" style="color: black"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="banner__dot-wrp banner-two__dot-wrp">
-          <div class="dot-light banner__dot"></div>
-        </div> -->
-    </section>
-    <!-- Banner area end here -->
-
-    <!-- Brand area start here -->
-    <div class="brand-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div
-                    class="col-md-10 brand__wrp"
-                    style="border-radius: 0 10px 10px 0">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="text-white">/ WELCOME</p>
-                            <h2 class="text-white">Where good idea meets expertise</h2>
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                                Ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                                scelerisque augue vitae consequat. Aisque eget congue velit
-                                in cursus sodales. Turpis euismod quis sapien euismod quis
-                                sapien condimentum nec lorem nulla augue. Ipsum dolor sit
-                                amet, consectetur adipiscing elit. Aenean scelerisque augue
-                                vitae consequat. Aisque eget congue velit in cursus sodales.
-                                Turpis euismod quis sapien euismod quis sapien condimentum
-                                nec lorem nulla augue.
-                            </p>
-                            <button type="button" class="btn btn-outline-dark mt-5 text-white" style="border-radius: 50px; border-color: white;">Discover More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Brand area end here -->
-
-    <!-- About area end here -->
-    <section
-        class="service-two-area secondary-bg pt-120 pb-120"
-        style="background-color: white">
-        <div class="service-two__shape-left sway_Y__animationY">
-            <img
-                src="{{ asset('assets/images/hompage/img1.png') }}"
-                alt="shape"
-                style="width: 50%; height: auto" />
-        </div>
-        <div class="container">
-            <div
-                class="section-header text-center mb-60"
-                style="z-index: 1; position: relative">
-
-                </h5>
-                <p
-                    class="wow fadeInUp text-black fs-1">
-                    More than <b>50+ companies</b> trusted us
-                </p>
-                <p
-                    class="wow fadeInUp text-black fs-3">
-                    We are very fortunate to have formed excellent partnerships with client.
-                </p>
-            </div>
-            <div class="row g-4">
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/find.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/mayora.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/boch.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/cargomatic.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/intact.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/nex.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/media.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/lion.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/uptime.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/Osram-Corporate-Logo 1.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/mayora.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/boch.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                    <div class="team__item">
-                        <div class="image d-flex justify-content-center align-items-center" style="height: 100%; width: 100%;">
-                            <img
-                                src="{{ asset('assets/images/compenie/cargomatic.png') }}"
-                                alt="image"
-                                style="max-width: 100%; max-height: 100%;" />
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section
-        class="service-two-area secondary-bg pt-120 pb-120"
-        style="background-color: white">
-        <div
-            class="service-two__shape-left sway_Y__animationY"
-            style="width: 10vw; height: auto">
-            <img
-                src="{{ asset('assets/images/icon/Group79.png') }}"
-                alt="shape"
-                style="width: 100%; height: auto" />
-        </div>
-        <div
-            class="service-two__shape-right sway_Y__animation"
-            style="width: 10vw; height: auto">
-            <img
-                src="{{ asset('assets/images/icon/Group 80.png') }}"
-                alt="shape"
-                style="width: 100%; height: auto" />
-        </div>
-        <div class="container">
-            <div
-                class="section-header text-center mb-60"
-                style="z-index: 1; position: relative">
-                <h2 class="wow fadeInLeft fs-1" data-wow-delay="200ms" data-wow-duration="1500ms" style="color: #E0E0E0;">
-                    We offer a <span style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">full-cycle</span>, comprehensive <span style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">solution</span>
-                </h2>
-                <div style="width: 1px; height: 100px; background-color: #1A67D4; margin: 20px auto;"></div>
-            </div>
-        </div>
-    </section>
-    <div class="row justify-content-end">
-        <div class="col-md-11">
-            <!-- Cause area start here -->
-            <section
-                class="testimonial-three-area pt-120 pb-120 bg-image sub-bg"
-                data-background="{{ asset('assets/images/bg/img_device.png') }}"
-                style="background-color: #0F0522;">
-                <div class="testimonial-three__wrp">
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="section-header mb-40">
-                                <h5
-                                    class="wow fadeInUp"
-                                    data-wow-delay="00ms"
-                                    data-wow-duration="1500ms">
-                                    / SERVICE
-                                </h5>
-                                <h2
-                                    class="wow fadeInUp"
-                                    data-wow-delay="200ms"
-                                    data-wow-duration="1500ms">
-                                    APPLICATION DEVELOPMENT
-                                </h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Perferendis in eveniet architecto fuga ducimus,
-                                    repellendus eos temporibus explicabo. Neque ratione
-                                    exercitationem voluptatibus dicta harum deserunt
-                                    perspiciatis culpa voluptatum quibusdam odit?
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="banner-two__content text-center">
+                                <h1 data-animation="fadeInUp" data-delay=".5s"
+                                    style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                                    Turning ideas Into Realitu
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
+                                    Our development team utilizes the latest technology to
+                                    ensure that your applications are high performing and
+                                    user-friendly. which meets the highest standards
                                 </p>
+                                <div style="
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: white;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                                    class="mt-5">
+                                    <i class="fa-solid fa-arrow-down" style="color: black"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6 text-center mt-5">
-                            <div
-                                style="
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="banner-two__content text-center">
+                                <!-- <h4
+                            data-animation="fadeInUp"
+                            data-delay=".3s"
+                            class="text-white mb-20"
+                          >
+                            TECHNOLOGY RELETED CONSULTANCY
+                          </h4> -->
+                                <h1 data-animation="fadeInUp" data-delay=".5s"
+                                    style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                                    Turning ideas Into Realitu
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
+                                    Our development team utilizes the latest technology to
+                                    ensure that your applications are high performing and
+                                    user-friendly. which meets the highest standards
+                                </p>
+                                <div style="
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: white;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                                    class="mt-5">
+                                    <i class="fa-solid fa-arrow-down" style="color: black"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="banner-two__content text-center">
+                                <!-- <h4
+                            data-animation="fadeInUp"
+                            data-delay=".3s"
+                            class="text-white mb-20"
+                          >
+                            TECHNOLOGY RELETED CONSULTANCY
+                          </h4> -->
+                                <h1 data-animation="fadeInUp" data-delay=".5s"
+                                    style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                                    Turning ideas Into Realitu
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
+                                    Our development team utilizes the latest technology to
+                                    ensure that your applications are high performing and
+                                    user-friendly. which meets the highest standards
+                                </p>
+                                <div style="
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: white;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                                    class="mt-5">
+                                    <i class="fa-solid fa-arrow-down" style="color: black"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="banner__dot-wrp banner-two__dot-wrp">
+                  <div class="dot-light banner__dot"></div>
+                </div> -->
+        </section>
+        <!-- Banner area end here -->
+
+        <!-- Brand area start here -->
+        <div class="brand-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 brand__wrp" style="border-radius: 0 10px 10px 0">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="text-white">/ WELCOME</p>
+                                <h2 class="text-white">Where good idea meets expertise</h2>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    Ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                    scelerisque augue vitae consequat. Aisque eget congue velit
+                                    in cursus sodales. Turpis euismod quis sapien euismod quis
+                                    sapien condimentum nec lorem nulla augue. Ipsum dolor sit
+                                    amet, consectetur adipiscing elit. Aenean scelerisque augue
+                                    vitae consequat. Aisque eget congue velit in cursus sodales.
+                                    Turpis euismod quis sapien euismod quis sapien condimentum
+                                    nec lorem nulla augue.
+                                </p>
+                                <button type="button" class="btn btn-outline-dark mt-5 text-white"
+                                    style="border-radius: 50px; border-color: white;">Discover More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Brand area end here -->
+
+        <!-- About area end here -->
+        <section class="service-two-area secondary-bg pt-120 pb-120" style="background-color: white">
+            <div class="service-two__shape-left sway_Y__animationY">
+                <img src="{{ asset('assets/images/hompage/img1.png') }}" alt="shape" style="width: 50%; height: auto" />
+            </div>
+            <div class="container">
+                <div class="section-header text-center mb-60" style="z-index: 1; position: relative">
+
+                    </h5>
+                    <p class="wow fadeInUp text-black fs-1">
+                        More than <b>50+ companies</b> trusted us
+                    </p>
+                    <p class="wow fadeInUp text-black fs-3">
+                        We are very fortunate to have formed excellent partnerships with client.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/find.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/mayora.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/boch.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/cargomatic.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/intact.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/nex.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/media.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/lion.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/uptime.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/Osram-Corporate-Logo 1.png') }}"
+                                    alt="image" style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/mayora.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/boch.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
+                        <div class="team__item">
+                            <div class="image d-flex justify-content-center align-items-center"
+                                style="height: 100%; width: 100%;">
+                                <img src="{{ asset('assets/images/compenie/cargomatic.png') }}" alt="image"
+                                    style="max-width: 100%; max-height: 100%;" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="service-two-area secondary-bg pt-120 pb-120" style="background-color: white">
+            <div class="service-two__shape-left sway_Y__animationY" style="width: 10vw; height: auto">
+                <img src="{{ asset('assets/images/icon/Group79.png') }}" alt="shape"
+                    style="width: 100%; height: auto" />
+            </div>
+            <div class="service-two__shape-right sway_Y__animation" style="width: 10vw; height: auto">
+                <img src="{{ asset('assets/images/icon/Group 80.png') }}" alt="shape"
+                    style="width: 100%; height: auto" />
+            </div>
+            <div class="container">
+                <div class="section-header text-center mb-60" style="z-index: 1; position: relative">
+                    <h2 class="wow fadeInLeft fs-1" data-wow-delay="200ms" data-wow-duration="1500ms"
+                        style="color: #E0E0E0;">
+                        We offer a <span
+                            style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">full-cycle</span>,
+                        comprehensive <span
+                            style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">solution</span>
+                    </h2>
+                    <div style="width: 1px; height: 100px; background-color: #1A67D4; margin: 20px auto;"></div>
+                </div>
+            </div>
+        </section>
+        <div class="row justify-content-end">
+            <div class="col-md-11">
+                <!-- Cause area start here -->
+                <section class="testimonial-three-area pt-120 pb-120 bg-image sub-bg"
+                    data-background="{{ asset('assets/images/bg/img_device.png') }}" style="background-color: #0F0522;">
+                    <div class="testimonial-three__wrp">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="section-header mb-40">
+                                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        / SERVICE
+                                    </h5>
+                                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                        APPLICATION DEVELOPMENT
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Perferendis in eveniet architecto fuga ducimus,
+                                        repellendus eos temporibus explicabo. Neque ratione
+                                        exercitationem voluptatibus dicta harum deserunt
+                                        perspiciatis culpa voluptatum quibusdam odit?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center mt-5">
+                                <div
+                                    style="
                     width: 50px;
                     height: 50px;
                     border-radius: 50%;
@@ -514,332 +363,253 @@
                     align-items: center;
                     justify-content: center;
                   ">
-                                <i class="fa-solid fa-arrow-right" style="color: black"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Cause area end here -->
-            <div class="brand-area">
-                <div class="container-fluid">
-                    <div class="row justify-content-end">
-                        <div class="col-md-10">
-                            <div class="brand__wrp d-flex" style="padding: 25px; margin-top: -40px">
-                                <div
-                                    class="brand__shape d-flex justify-content-start"></div>
-                                <div
-                                    class="testimonial-three__arry-btn d-flex gap-3 wow fadeInDown"
-                                    data-wow-delay="400ms"
-                                    data-wow-duration="1500ms">
-                                    < <div style="width: 100px; height: 1px; background-color: white; margin-top: 14px ;">
-                                </div>>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <!-- Blog area start here -->
-    <section class="blog-two-area mt-5 position-relative text-center  ">
-        <div class="container text-center">
-            <div class="d-flex flex-wrap gap-4 m-5">
-
-                <h2 class="wow fadeInLeft" style="position: absolute; top: 15vw; left: 0; z-index: 1; font-size: 6vw; color: #E0E0E0; line-height: 100px;">
-                    Our <span style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">Powerful</span>
-                </h2>
-                <h2 class="wow fadeInLeft" style="position: absolute; top: 25vw; left: 0; z-index: 1; font-size: 6vw; color: #E0E0E0; line-height: 100px;">
-                    Value
-                </h2>
-            </div>
-        </div>
-        <img src="{{ asset('assets/images/hompage/chart.png') }}" style="width: 80%; height: auto;" alt="" />
-        </div>
-    </section>
-    <!-- Blog area end here -->
-    <!-- Service area start here -->
-    <section class="service-two-area secondary-bg pt-120 pb-120">
-        <div class="footer__shape-solid-right wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <img class="sway_Y__animation" src="{{ asset('assets/images/hompage/img2.png') }}" style="width: 50%; height: auto; float: right;" alt="shape">
-        </div>
-        <div class="container">
-            <div
-                class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
-                <div class="section-header">
-                    <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms" style="color: #686868;">
-
-                        / PROJECTS
-                    </h5>
-                    <h2
-                        class="text-white wow fadeInLeft"
-                        data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        Exclusive IT Services
-                    </h2>
-                </div>
-                <div
-                    class="arry-btn d-flex gap-3 wow fadeInUp"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1500ms">
-                    <button class="arry-prev service__arry-prev">
-                        <i class="fa-light fa-chevron-left"></i>
-                    </button>
-                    <button class="arry-next service__arry-next active">
-                        <i class="fa-light fa-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="swiper service-two__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="service-two__item">
-                            <div class="image">
-                                <img
-                                    src="{{ asset('assets/images/service/service-image1.jpg') }}"
-                      alt="image"
-                    />
-                  </div>
-                  <div class="service-two__content">
-                     
-                    
-                    <h4>
-                      <a href="service-details.html" class="primary-hover"
-                        >Database Security</a
-                      >
-                    </h4>
-                    <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
-                    </p>
-                    <a class="read-more-btn" href="service-details.html"
-                      >Read More <i class="fa-regular fa-arrow-right-long"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-two__item">
-                  <div class="image">
-                    <img
-                      src="{{ asset('assets/images/service/service-image2.jpg') }}"
-                      alt="image"
-                    />
-                  </div>
-                  <div class="service-two__content">
-                   
-                    
-                    <h4>
-                      <a href="service-details.html" class="primary-hover"
-                        >IT Consultancy</a
-                      >
-                    </h4>
-                    <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
-                    </p>
-                    <a class="read-more-btn" href="service-details.html"
-                      >Read More <i class="fa-regular fa-arrow-right-long"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-two__item">
-                  <div class="image">
-                    <img
-                      src="{{ asset('assets/images/service/service-image3.jpg') }}"
-                      alt="image"
-                    />
-                  </div>
-                  <div class="service-two__content">
-                   
-                    
-                    <h4>
-                      <a href="service-details.html" class="primary-hover"
-                        >App Development</a
-                      >
-                    </h4>
-                    <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
-                    </p>
-                    <a class="read-more-btn" href="service-details.html"
-                      >Read More <i class="fa-regular fa-arrow-right-long"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-two__item">
-                  <div class="image">
-                    <img
-                      src="{{ asset('assets/images/service/service-image1.jpg') }}"
-                      alt="image"
-                    />
-                  </div>
-                  <div class="service-two__content">
-                   
-                    <h4>
-                      <a href="service-details.html" class="primary-hover"
-                        >Database Security</a
-                      >
-                    </h4>
-                    <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
-                    </p>
-                    <a class="read-more-btn" href="service-details.html"
-                      >Read More <i class="fa-regular fa-arrow-right-long"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-two__item">
-                  <div class="image">
-                    <img
-                      src="{{ asset('assets/images/service/service-image2.jpg') }}"
-                      alt="image"
-                    />
-                  </div>
-                  <div class="service-two__content">
-                    
-                    <h4>
-                      <a href="service-details.html" class="primary-hover"
-                        >IT Consultancy</a
-                      >
-                    </h4>
-                    <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
-                    </p>
-                    <a class="read-more-btn" href="service-details.html"
-                      >Read More <i class="fa-regular fa-arrow-right-long"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="service-two__item">
-                  <div class="image">
-                    <img
-                      src="{{ asset('assets/images/service/service-image3.jpg') }}"
-                      alt="image"
-                    />
-                  </div>
-                  <div class="service-two__content">
-                    
-                    
-                    <h4>
-                      <a href="service-details.html" class="primary-hover"
-                        >App Development</a
-                      >
-                    </h4>
-                    <p>
-                      Pellentesque nec the condimentum nec lorem nulla augue est
-                      ultricies ac iaculis.
-                    </p>
-                    <a class="read-more-btn" href="service-details.html"
-                      >Read More <i class="fa-regular fa-arrow-right-long"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </section>
-      
-      <!-- Service area end here -->
-      <!-- Quote area start here -->
-      <div class="brand-area" style="padding: 0; margin: 0; background-color: #0f0d1d;">
-        <div class="container-fluid" style="padding: 0; margin: 0;"></div>
-          <div class="  d-flex" style="width: 100%; background-color: #0f0d1d; padding: 0; margin: 0;">
-        <img src="{{ asset('assets/images/bg/Ellipse5.png') }}" style="width: 100vw; height: 30vh; object-fit: cover; padding: 0; margin: 0;" alt="">
-                                <div class="brand__shape d-flex justify-content-start"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Quote area end here -->
-                    <section class="quote-area">
-
-                        <div class="container">
-                            <div style="margin-top: -180px; background-color: white;">
-
-                                <div class="d-flex   gap-4 align-items-center justify-content-center text-center">
-                                    <div class="section-header">
-                                        <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms" style="color: #686868;">
-
-                                            / PROJECTS
-                                        </h5>
-                                        <h2 class="wow fadeInLeft " data-wow-delay="200ms" data-wow-duration="1500ms" style="color: #E0E0E0;">
-                                            <span style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">Taking</span> Your Businesss to the <span style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">Next Level</span>
-                                        </h2>
-                                        <div class="d-none d-xl-flex gap-4 justify-content-center text-center mt-5  ">
-                                            <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px;">Get A Quote</a>
-                                        </div>
-                                        <h3 class="text-black mt-5">Headquarters</h3>
-                                        <p class="text-black">Kp.Ceger,RT.007/002.Desa/Kelurahan Lebak Wangi, Kec,Sepatan Timur,Kab,Tangerang 15521</p>
-                                        <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms">
-                                            <i class="fa-solid fa-map-marker-alt"></i>
-                                            view on google map
-                                        </h5>
-                                    </div>
+                                    <i class="fa-solid fa-arrow-right" style="color: black"></i>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    </main>
-
-                </div>
-            </div>
-            <footer class="footer-area secondary-bg" style="background-color: #1A67D4;">
-
-
-                <div class="footer__copyright" style="background-color: white; border-top: 1px solid #00000099;"">
-          <div class=" container text-center">
-                    <div class="d-flex gap-1 flex-wrap align-items-center justify-content-center">
-                        <p class="wow fadeInDown text-center text-black" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
-                            by </p>
+                    </div>
+                </section>
+                <!-- Cause area end here -->
+                <div class="brand-area">
+                    <div class="container-fluid">
+                        <div class="row justify-content-end">
+                            <div class="col-md-10">
+                                <div class="brand__wrp d-flex" style="padding: 25px; margin-top: -40px">
+                                    <div class="brand__shape d-flex justify-content-start"></div>
+                                    <div class="testimonial-three__arry-btn d-flex gap-3 wow fadeInDown"
+                                        data-wow-delay="400ms" data-wow-duration="1500ms">
+                                        < <div
+                                            style="width: 100px; height: 1px; background-color: white; margin-top: 14px ;">
+                                    </div>>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
-        </footer>
-
-        <!-- Back to top area start here -->
-        <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-            <a href="https://wa.me/2085550112" target="_blank">
-                <img src="{{ asset('assets/images/hompage/whatsapp.png') }}" alt="WhatsApp" style="width: 50px; height: 50px;">
-            </a>
         </div>
-        <!-- Back to top area end here -->
 
-        <!-- Jquery 3.7.0 Min Js -->
-        <script src="{{ asset('assets/js/jquery-3.7.1.min.js') }}"></script>
-    <!-- Bootstrap min Js -->
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <!-- Mean menu Js -->
-    <script src="{{ asset('assets/js/meanmenu.js') }}"></script>
-    <!-- Swiper bundle min Js -->
-    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
-    <!-- Counterup min Js -->
-    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
-    <!-- Wow min Js -->
-    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
-    <!-- Pace min Js -->
-    <script src="{{ asset('assets/js/pace.min.js') }}"></script>
-    <!-- Magnific popup min Js -->
-    <script src="{{ asset('assets/js/magnific-popup.min.js') }}"></script>
-    <!-- Nice select min Js -->
-    <script src="{{ asset('assets/js/nice-select.min.js') }}"></script>
-    <!-- Isotope pkgd min Js -->
-    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
-    <!-- Waypoints Js -->
-    <script src="{{ asset('assets/js/jquery.waypoints.js') }}"></script>
-    <!-- Script Js -->
-    <script src="{{ asset('assets/js/script.js') }}"></script>
-  </body>
-</html>
+        <!-- Blog area start here -->
+        <section class="blog-two-area mt-5 position-relative text-center  ">
+            <div class="container text-center">
+                <div class="d-flex flex-wrap gap-4 m-5">
+
+                    <h2 class="wow fadeInLeft"
+                        style="position: absolute; top: 15vw; left: 0; z-index: 1; font-size: 6vw; color: #E0E0E0; line-height: 100px;">
+                        Our <span
+                            style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">Powerful</span>
+                    </h2>
+                    <h2 class="wow fadeInLeft"
+                        style="position: absolute; top: 25vw; left: 0; z-index: 1; font-size: 6vw; color: #E0E0E0; line-height: 100px;">
+                        Value
+                    </h2>
+                </div>
+            </div>
+            <img src="{{ asset('assets/images/hompage/chart.png') }}" style="width: 80%; height: auto;"
+                alt="" />
+            </div>
+        </section>
+        <!-- Blog area end here -->
+        <!-- Service area start here -->
+        <section class="service-two-area secondary-bg pt-120 pb-120">
+            <div class="footer__shape-solid-right wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <img class="sway_Y__animation" src="{{ asset('assets/images/hompage/img2.png') }}"
+                    style="width: 50%; height: auto; float: right;" alt="shape">
+            </div>
+            <div class="container">
+                <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
+                    <div class="section-header">
+                        <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms"
+                            style="color: #686868;">
+
+                            / PROJECTS
+                        </h5>
+                        <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            Exclusive IT Services
+                        </h2>
+                    </div>
+                    <div class="arry-btn d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <button class="arry-prev service__arry-prev">
+                            <i class="fa-light fa-chevron-left"></i>
+                        </button>
+                        <button class="arry-next service__arry-next active">
+                            <i class="fa-light fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper service-two__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="service-two__item">
+                                <div class="image">
+                                    <img src="{{ asset('assets/images/service/service-image1.jpg') }}" alt="image" />
+                                </div>
+                                <div class="service-two__content">
+
+
+                                    <h4>
+                                        <a href="service-details.html" class="primary-hover">Database Security</a>
+                                    </h4>
+                                    <p>
+                                        Pellentesque nec the condimentum nec lorem nulla augue est
+                                        ultricies ac iaculis.
+                                    </p>
+                                    <a class="read-more-btn" href="service-details.html">Read More <i
+                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-two__item">
+                                <div class="image">
+                                    <img src="{{ asset('assets/images/service/service-image2.jpg') }}" alt="image" />
+                                </div>
+                                <div class="service-two__content">
+
+
+                                    <h4>
+                                        <a href="service-details.html" class="primary-hover">IT Consultancy</a>
+                                    </h4>
+                                    <p>
+                                        Pellentesque nec the condimentum nec lorem nulla augue est
+                                        ultricies ac iaculis.
+                                    </p>
+                                    <a class="read-more-btn" href="service-details.html">Read More <i
+                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-two__item">
+                                <div class="image">
+                                    <img src="{{ asset('assets/images/service/service-image3.jpg') }}" alt="image" />
+                                </div>
+                                <div class="service-two__content">
+
+
+                                    <h4>
+                                        <a href="service-details.html" class="primary-hover">App Development</a>
+                                    </h4>
+                                    <p>
+                                        Pellentesque nec the condimentum nec lorem nulla augue est
+                                        ultricies ac iaculis.
+                                    </p>
+                                    <a class="read-more-btn" href="service-details.html">Read More <i
+                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-two__item">
+                                <div class="image">
+                                    <img src="{{ asset('assets/images/service/service-image1.jpg') }}" alt="image" />
+                                </div>
+                                <div class="service-two__content">
+
+                                    <h4>
+                                        <a href="service-details.html" class="primary-hover">Database Security</a>
+                                    </h4>
+                                    <p>
+                                        Pellentesque nec the condimentum nec lorem nulla augue est
+                                        ultricies ac iaculis.
+                                    </p>
+                                    <a class="read-more-btn" href="service-details.html">Read More <i
+                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-two__item">
+                                <div class="image">
+                                    <img src="{{ asset('assets/images/service/service-image2.jpg') }}" alt="image" />
+                                </div>
+                                <div class="service-two__content">
+
+                                    <h4>
+                                        <a href="service-details.html" class="primary-hover">IT Consultancy</a>
+                                    </h4>
+                                    <p>
+                                        Pellentesque nec the condimentum nec lorem nulla augue est
+                                        ultricies ac iaculis.
+                                    </p>
+                                    <a class="read-more-btn" href="service-details.html">Read More <i
+                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-two__item">
+                                <div class="image">
+                                    <img src="{{ asset('assets/images/service/service-image3.jpg') }}" alt="image" />
+                                </div>
+                                <div class="service-two__content">
+
+
+                                    <h4>
+                                        <a href="service-details.html" class="primary-hover">App Development</a>
+                                    </h4>
+                                    <p>
+                                        Pellentesque nec the condimentum nec lorem nulla augue est
+                                        ultricies ac iaculis.
+                                    </p>
+                                    <a class="read-more-btn" href="service-details.html">Read More <i
+                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service area end here -->
+        <!-- Quote area start here -->
+        <div class="brand-area" style="padding: 0; margin: 0; background-color: #0f0d1d;">
+            <div class="container-fluid" style="padding: 0; margin: 0;"></div>
+            <div class="  d-flex" style="width: 100%; background-color: #0f0d1d; padding: 0; margin: 0;">
+                <img src="{{ asset('assets/images/bg/Ellipse5.png') }}"
+                    style="width: 100vw; height: 30vh; object-fit: cover; padding: 0; margin: 0;" alt="">
+                <div class="brand__shape d-flex justify-content-start"></div>
+            </div>
+        </div>
+        </div>
+        <!-- Quote area end here -->
+        <section class="quote-area">
+
+            <div class="container">
+                <div style="margin-top: -180px; background-color: white;">
+
+                    <div class="d-flex   gap-4 align-items-center justify-content-center text-center">
+                        <div class="section-header">
+                            <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms"
+                                style="color: #686868;">
+
+                                / PROJECTS
+                            </h5>
+                            <h2 class="wow fadeInLeft " data-wow-delay="200ms" data-wow-duration="1500ms"
+                                style="color: #E0E0E0;">
+                                <span
+                                    style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">Taking</span>
+                                Your Businesss to the <span
+                                    style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">Next
+                                    Level</span>
+                            </h2>
+                            <div class="d-none d-xl-flex gap-4 justify-content-center text-center mt-5  ">
+                                <a href="contact.html" class="btn-one"
+                                    style="border-radius: 50px; padding: 10px 20px;">Get A Quote</a>
+                            </div>
+                            <h3 class="text-black mt-5">Headquarters</h3>
+                            <p class="text-black">Kp.Ceger,RT.007/002.Desa/Kelurahan Lebak Wangi, Kec,Sepatan
+                                Timur,Kab,Tangerang 15521</p>
+                            <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <i class="fa-solid fa-map-marker-alt"></i>
+                                view on google map
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+@endsection
