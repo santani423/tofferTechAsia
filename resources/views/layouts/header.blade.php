@@ -7,10 +7,10 @@
                 <div class="main-menu">
                     <nav>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="portofolio.html">Portofolio</a></li> 
+                            <li><a href="{{url('/')}}">Home</a></li>
+                            <li><a href="{{url('/about-us')}}">About Us</a></li>
+                            <li><a href="{{url('/')}}">Service</a></li>
+                            <li><a href="{{url('/')}}">Portofolio</a></li> 
                         </ul>
                     </nav>
                 </div>

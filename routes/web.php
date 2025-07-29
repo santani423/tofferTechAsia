@@ -19,4 +19,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [LandingPageController::class, 'index']);
+Route::get('/about-us', [LandingPageController::class, 'aboutUs']);
 

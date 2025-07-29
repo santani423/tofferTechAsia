@@ -9,4 +9,7 @@ class LandingPageController extends Controller
     function index(){
        return view('home');
     }
+    function aboutUs(){
+       return view('aboutUs');
+    }
 }
