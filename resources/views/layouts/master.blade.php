@@ -2,7 +2,8 @@
 <html lang="en" data-theme="dark">
 
 <head>
-    @include('layouts.head')
+    
+    @extends('layouts.head')
 </head>
 
 <body style="background-color: white">
@@ -26,10 +27,27 @@
     <!-- Mouse cursor area end here -->
 
     <!-- Header area start here -->
-    @include('layouts.header')
+    @extends('layouts.header')
+
     <!-- Header area end here -->
 
- 
+    <!-- Sidebar area start here -->
+    <div id="targetElement" class="sidebar-area sidebar__hide light-area">
+        <div class="sidebar__overlay"></div>
+        <a href="index.html" class="logo mb-40">
+            <img src="assets/images/logo/logo.svg" alt="logo" />
+        </a>
+
+        <div class="mobile-menu overflow-hidden"></div>
+
+
+        <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px;  ">GET IN TOUCH</a>
+
+        <button id="closeButton" class="text-white">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <!-- Sidebar area end here -->
 
     <!-- Fullscreen search area start here -->
     <div class="search-wrap">
@@ -42,13 +60,13 @@
             </div>
         </div>
     </div>
-    <!-- Fulscreen search area end here -->
-    @yield('content')
-  
+    <!-- Fullscreen search area end here -->
+       @yield('content')
+     
 
     </div>
     </div>
-    @include('layouts.footer')
+    @extends('layouts.footer')
 </body>
 
 </html>

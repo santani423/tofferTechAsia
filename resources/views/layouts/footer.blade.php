@@ -45,3 +45,5 @@
     <script src="{{ asset('assets/js/jquery.waypoints.js') }}"></script>
     <!-- Script Js -->
     <script src="{{ asset('assets/js/script.js') }}"></script>
+
+    @yield('script')

@@ -1,6 +1,6 @@
-@include('layouts.master')
+@extends('layouts.master')
 
-@section('name', 'TOFFEL TECH ASIA1')
+@section('title', 'TOFFEL TECH ASIA1')
 @section('content')
     <main>
         <!-- Banner area start here -->
@@ -612,4 +612,4 @@
             </div>
         </section>
     </main>
-@endsection
+@endsection 

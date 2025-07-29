@@ -10,8 +10,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="service.html">Service</a></li>
-                            <li><a href="portofolio.html">Portofolio</a></li>
-
+                            <li><a href="portofolio.html">Portofolio</a></li> 
                         </ul>
                     </nav>
                 </div>

@@ -20,3 +20,4 @@
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}" />
     <!-- Style css -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+    @yield('css')
