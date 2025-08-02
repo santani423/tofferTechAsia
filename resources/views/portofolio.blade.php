@@ -1,88 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toffel Tech Asia</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="assets/images/logo/faficon.png" sizes="32x32" />
-    <!-- Bootstarp min css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- Mean menu css -->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!-- All min css -->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!-- Swiper bundle min css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!-- Magnigic popup css -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!-- Animate css -->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!-- Nice select css -->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!-- Style css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+@extends('layouts.master')
 
-  <body>
-    <!-- Preloader area start -->
-    <!-- <div class="loading">
-        <span class="text-capitalize">L</span>
-        <span>o</span>
-        <span>a</span>
-        <span>d</span>
-        <span>i</span>
-        <span>n</span>
-        <span>g</span>
-    </div>
-    <div id="preloader">
-    </div> -->
-    <!-- Preloader area end -->
-
-    <!-- Mouse cursor area start here -->
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
-    <!-- Mouse cursor area end here -->
-
-    <!-- Header area start here -->
-    <header class="header-area header-two-area">
-      <div class="container header__container">
-        <div class="header__main">
-          <a href="index.html" class="logo">
-            <img src="assets/images/logo/logo.png" alt="logo" />
-          </a>
-          <div class="main-menu">
-            <nav>
-              <ul> 
-                <li><a href="index.html">Home</a></li> 
-                <li><a href="about.html">About Us</a></li> 
-                <li><a href="service.html">Service</a></li>
-                <li><a href="portofolio.html">Portofolio</a></li>
-                 
-              </ul>
-            </nav>
-          </div>
-          <div class="d-none d-xl-flex gap-4" > 
-            <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px; ">Get A Quote</a> 
-            </div>
-          <div class="bars d-block d-lg-none">
-            <i id="openButton" class="fa-solid fa-bars"></i>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- Header area end here -->
-
-  
-
- 
-
+@section('title', 'TOFFEL TECH ASIA1')
+@section('content')
     <main>
       <!-- Banner area start here -->
       <section
         class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-        data-background="assets/images/banner/banner-inner-page.jpg"
+        data-background="{{ asset('assets/images/banner/banner-inner-page.jpg') }}"
         style="background: rgba(0, 7, 73, 50)"
       >
         <div
@@ -92,7 +16,7 @@
         >
           <img
             class="sway__animationX"
-            src="assets/images/about/Deep dive - Digital infrastructure - Banner 1.png"
+            src="{{ asset('assets/images/about/Deep dive - Digital infrastructure - Banner 1.png') }}"
             alt="shape"
           />
         </div>
@@ -126,7 +50,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="case__item">
                         <div class="image case__image">
-                            <img src="assets/images/case/case-image1.jpg" alt="image">
+                            <img src="{{ asset('assets/images/case/case-image1.jpg') }}" alt="image">
                         </div>
                         <div class="case__content">
                             <span class="primary-color sm-font">Technology</span>
@@ -141,7 +65,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="case__item">
                         <div class="image case__image">
-                            <img src="assets/images/case/case-image2.jpg" alt="image">
+                            <img src="{{ asset('assets/images/case/case-image2.jpg') }}" alt="image">
                         </div>
                         <div class="case__content">
                             <span class="primary-color sm-font">Technology</span>
@@ -155,7 +79,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="case__item">
                         <div class="image case__image">
-                            <img src="assets/images/case/case-image3.jpg" alt="image">
+                            <img src="{{ asset('assets/images/case/case-image3.jpg') }}" alt="image">
                         </div>
                         <div class="case__content">
                             <span class="primary-color sm-font">Solution</span>
@@ -170,7 +94,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="case__item">
                         <div class="image case__image">
-                            <img src="assets/images/case/case-image4.jpg" alt="image">
+                            <img src="{{ asset('assets/images/case/case-image4.jpg') }}" alt="image">
                         </div>
                         <div class="case__content">
                             <span class="primary-color sm-font">Security</span>
@@ -185,7 +109,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="case__item">
                         <div class="image case__image">
-                            <img src="assets/images/case/case-two-image1.jpg" alt="image">
+                            <img src="{{ asset('assets/images/case/case-two-image1.jpg') }}" alt="image">
                         </div>
                         <div class="case__content">
                             <span class="primary-color sm-font">DEVELOPMENT</span>
@@ -199,7 +123,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="case__item">
                         <div class="image case__image">
-                            <img src="assets/images/case/case-two-image4.jpg" alt="image">
+                            <img src="{{ asset('assets/images/case/case-two-image4.jpg') }}" alt="image">
                         </div>
                         <div class="case__content">
                             <span class="primary-color sm-font">Design</span>
@@ -223,49 +147,5 @@
     <!-- Cause area end here -->
 <!-- Map area end here -->
     </main>
-    <footer class="footer-area secondary-bg" style="background-color: #1A67D4;"> 
-        <div class="footer__copyright" style="background-color: white; border-top: 1px solid #00000099;"">
-            <div class="container text-center">
-          <div class="d-flex gap-1 flex-wrap align-items-center justify-content-center">
-              <p class="wow fadeInDown text-center text-black" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
-            by </p>
-          </div>
-            </div>
-        </div>
-    </footer>
-    
-    <!-- Footer area end here -->
-    <!-- Back to top area start here -->
-    <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-      <a href="https://wa.me/2085550112" target="_blank">
-        <img src="assets/images/hompage/whatsapp.png" alt="WhatsApp" style="width: 50px; height: 50px;">
-      </a>
-    </div>
-    <!-- Back to top area end here -->
-
-    <!-- Jquery 3.7.0 Min Js -->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap min Js -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Mean menu Js -->
-    <script src="assets/js/meanmenu.js"></script>
-    <!-- Swiper bundle min Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Counterup min Js -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Wow min Js -->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Pace min Js -->
-    <script src="assets/js/pace.min.js"></script>
-    <!-- Magnific popup min Js -->
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <!-- Nice select min Js -->
-    <script src="assets/js/nice-select.min.js"></script>
-    <!-- Isotope pkgd min Js -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!-- Waypoints Js -->
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <!-- Script Js -->
-    <script src="assets/js/script.js"></script>
-  </body>
-</html>
+      
+@endsection 

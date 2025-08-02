@@ -5,7 +5,7 @@
             <div class=" container text-center">
                 <div class="d-flex gap-1 flex-wrap align-items-center justify-content-center">
                     <p class="wow fadeInDown text-center text-black" data-wow-delay="00ms"
-                        data-wow-duration="1500ms">&copy; All Copyright 2024
+                        data-wow-duration="1500ms">&copy; All Copyright 2025
                         by </p>
                 </div>
             </div>

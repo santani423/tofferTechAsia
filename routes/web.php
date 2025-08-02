@@ -20,4 +20,7 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', [LandingPageController::class, 'index']);
 Route::get('/about-us', [LandingPageController::class, 'aboutUs']);
+Route::get('/service', [LandingPageController::class, 'service']);
+Route::get('/portofolio', [LandingPageController::class, 'portofolio']);
+Route::get('/contact', [LandingPageController::class, 'contact']);
 

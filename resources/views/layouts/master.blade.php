@@ -41,7 +41,7 @@
         <div class="mobile-menu overflow-hidden"></div>
 
 
-        <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px;  ">GET IN TOUCH</a>
+        <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px;  ">GET A QUOTE</a>
 
         <button id="closeButton" class="text-white">
             <i class="fa-solid fa-xmark"></i>

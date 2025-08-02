@@ -9,13 +9,13 @@
                         <ul>
                             <li><a href="{{url('/')}}">Home</a></li>
                             <li><a href="{{url('/about-us')}}">About Us</a></li>
-                            <li><a href="{{url('/')}}">Service</a></li>
-                            <li><a href="{{url('/')}}">Portofolio</a></li> 
+                            <li><a href="{{url('/service')}}">Service</a></li>
+                            <li><a href="{{url('/portofolio')}}">Portofolio</a></li> 
                         </ul>
                     </nav>
                 </div>
                 <div class="d-none d-xl-flex gap-4">
-                    <a href="contact.html" class="btn-one" style="border-radius: 50px; padding: 10px 20px; ">GET IN TOUCH</a>
+                    <a href="{{url('/contact')}}" class="btn-one" style="border-radius: 50px; padding: 10px 20px; ">Get A Quote</a>
                 </div>
                 <div class="bars d-block d-lg-none">
                     <i id="openButton" class="fa-solid fa-bars"></i>
