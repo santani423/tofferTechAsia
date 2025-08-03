@@ -25,6 +25,7 @@
       height: 220px;
       object-fit: cover;
       border-radius: 16px 16px 0 0;
+      box-shadow: none !important; /* HILANGKAN SHADOW PADA GAMBAR */
     }
 
     .case__content {
@@ -109,21 +110,9 @@
             </div> 
           </div>
         </div>
-
-        <!-- Tambahkan card lainnya di sini jika diperlukan -->
-
       </div>
     </div>
-
-    <!-- Pagination -->
-    {{-- <div class="pegi justify-content-center mt-60">
-      <a href="#0" class="active">01</a>
-      <a href="#0">02</a>
-      <a href="#0">03</a>
-      <a href="#0"><i class="fa-solid fa-arrow-right-long primary-color transition"></i></a>
-    </div> --}}
   </section>
-  <!-- Portofolio card area end -->
 
 </main>
 

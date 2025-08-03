@@ -14,7 +14,7 @@
 
     <!-- Back to top area start here -->
     <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-        <a href="https://wa.me/2085550112" target="_blank">
+        <a href="https://wa.me/628161944538" target="_blank">
             <img src="{{ asset('assets/images/hompage/whatsapp.png') }}" alt="WhatsApp"
                 style="width: 50px; height: 50px;">
         </a>
