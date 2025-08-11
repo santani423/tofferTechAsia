@@ -167,7 +167,7 @@
                         <ul>
                             <li><a href="{{ url('/') }}">Home</a></li>
                             <li><a href="{{ url('/about-us') }}">About Us</a></li>
-                             
+                           
                             <li><a href="{{ url('/portofolio') }}">Portofolio</a></li>
                             <li><a href="{{ url('/our-products') }}">Produk & Layanan</a></li>
                         </ul>
@@ -221,7 +221,7 @@
 
     </div>
     </div>
-   @extends('layouts.footer')
+    @extends('layouts.footer')
 
     <!-- Back to top area start here -->
     <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
