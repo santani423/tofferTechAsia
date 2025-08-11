@@ -7,9 +7,9 @@
         <section class="banner-two-area">
             <div class="banner-two__line">
                 <!-- <img
-                    class="sway_Y__animation"
-                    src="{{ asset('assets/images/banner/banner-line.png') }}"
-                        alt="shape" /> -->
+                                                        class="sway_Y__animation"
+                                                        src="{{ asset('assets/images/banner/banner-line.png') }}"
+                                                            alt="shape" /> -->
             </div>
             <div class="swiper banner__slider">
                 <div class="swiper-wrapper"
@@ -19,12 +19,13 @@
                     background-position: center;
                     background-repeat: no-repeat;
                 ">
+
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="banner-two__content text-center">
                                 <h1 data-animation="fadeInUp" data-delay=".5s"
                                     style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
-                                    Turning ideas Into Realitu
+                                    Turning Ideas Into Reality
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
                                     Our development team utilizes the latest technology to
@@ -50,15 +51,15 @@
                         <div class="container">
                             <div class="banner-two__content text-center">
                                 <!-- <h4
-                            data-animation="fadeInUp"
-                            data-delay=".3s"
-                            class="text-white mb-20"
-                          >
-                            TECHNOLOGY RELETED CONSULTANCY
-                          </h4> -->
+                                                data-animation="fadeInUp"
+                                                data-delay=".3s"
+                                                class="text-white mb-20"
+                                              >
+                                                TECHNOLOGY RELETED CONSULTANCY
+                                              </h4> -->
                                 <h1 data-animation="fadeInUp" data-delay=".5s"
                                     style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
-                                    Turning ideas Into Realitu
+                                    Turning Ideas Into Reality
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
                                     Our development team utilizes the latest technology to
@@ -84,15 +85,15 @@
                         <div class="container">
                             <div class="banner-two__content text-center">
                                 <!-- <h4
-                            data-animation="fadeInUp"
-                            data-delay=".3s"
-                            class="text-white mb-20"
-                          >
-                            TECHNOLOGY RELETED CONSULTANCY
-                          </h4> -->
+                                            data-animation="fadeInUp"
+                                            data-delay=".3s"
+                                            class="text-white mb-20"
+                                          >
+                                            TECHNOLOGY RELETED CONSULTANCY
+                                          </h4> -->
                                 <h1 data-animation="fadeInUp" data-delay=".5s"
                                     style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
-                                    Turning ideas Into Realitu
+                                    Turning Ideas Into Reality
                                 </h1>
                                 <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
                                     Our development team utilizes the latest technology to
@@ -117,8 +118,8 @@
                 </div>
             </div>
             <!-- <div class="banner__dot-wrp banner-two__dot-wrp">
-                  <div class="dot-light banner__dot"></div>
-                </div> -->
+                                                      <div class="dot-light banner__dot"></div>
+                                                    </div> -->
         </section>
         <!-- Banner area end here -->
 
@@ -134,14 +135,12 @@
                             </div>
                             <div class="col-md-6">
                                 <p>
-                                    Ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                                    scelerisque augue vitae consequat. Aisque eget congue velit
-                                    in cursus sodales. Turpis euismod quis sapien euismod quis
-                                    sapien condimentum nec lorem nulla augue. Ipsum dolor sit
-                                    amet, consectetur adipiscing elit. Aenean scelerisque augue
-                                    vitae consequat. Aisque eget congue velit in cursus sodales.
-                                    Turpis euismod quis sapien euismod quis sapien condimentum
-                                    nec lorem nulla augue.
+                                    We are a dynamic team of tech enthusiasts, developers, and creative thinkers who are
+                                    passionate about creating custom software solutions that drive business success. Toffel
+                                    Tech Asia is dedicated to delivering cutting-edge software products and services
+                                    tailored to our clients’ unique needs. Whether you’re a startup looking to build your
+                                    first app or an established company looking to streamline operations, our team is ready
+                                    to bring your vision to life.
                                 </p>
                                 <button type="button" class="btn btn-outline-dark mt-5 text-white"
                                     style="border-radius: 50px; border-color: white;">Discover More</button>
@@ -163,7 +162,7 @@
 
                     </h5>
                     <p class="wow fadeInUp text-black fs-1">
-                        More than <b>50+ companies</b> trusted us
+                        More than <b>1+ companies</b> trusted us
                     </p>
                     <p class="wow fadeInUp text-black fs-3">
                         We are very fortunate to have formed excellent partnerships with client.
@@ -175,7 +174,7 @@
                         <div class="team__item">
                             <div class="image d-flex justify-content-center align-items-center"
                                 style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/find.png') }}" alt="image"
+                                <img src="{{ asset('assets/images/compenie/cybertrend.png') }}" alt="image"
                                     style="max-width: 100%; max-height: 100%;" />
                             </div>
                         </div>
@@ -185,7 +184,7 @@
                         <div class="team__item">
                             <div class="image d-flex justify-content-center align-items-center"
                                 style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/mayora.png') }}" alt="image"
+                                <img src="{{ asset('assets/images/compenie/daffana.png') }}" alt="image"
                                     style="max-width: 100%; max-height: 100%;" />
                             </div>
                         </div>
@@ -193,117 +192,14 @@
                     <div
                         class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
                         <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/boch.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
+
                         </div>
                     </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/cargomatic.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/intact.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/nex.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/media.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/lion.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/uptime.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/Osram-Corporate-Logo 1.png') }}"
-                                    alt="image" style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/mayora.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/boch.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp d-flex justify-content-center align-items-center mt-2">
-                        <div class="team__item">
-                            <div class="image d-flex justify-content-center align-items-center"
-                                style="height: 100%; width: 100%;">
-                                <img src="{{ asset('assets/images/compenie/cargomatic.png') }}" alt="image"
-                                    style="max-width: 100%; max-height: 100%;" />
-                            </div>
-                        </div>
-                    </div>
+                    <div>
 
 
+                    </div>
                 </div>
-            </div>
         </section>
 
         <section class="service-two-area secondary-bg pt-120 pb-120" style="background-color: white">
@@ -344,11 +240,7 @@
                                         APPLICATION DEVELOPMENT
                                     </h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Perferendis in eveniet architecto fuga ducimus,
-                                        repellendus eos temporibus explicabo. Neque ratione
-                                        exercitationem voluptatibus dicta harum deserunt
-                                        perspiciatis culpa voluptatum quibusdam odit?
+                                        We here for you...
                                     </p>
                                 </div>
                             </div>
@@ -406,8 +298,7 @@
                     </h2>
                 </div>
             </div>
-            <img src="{{ asset('assets/images/hompage/chart.png') }}" style="width: 80%; height: auto;"
-                alt="" />
+            <img src="{{ asset('assets/images/hompage/chart.png') }}" style="width: 80%; height: auto;" alt="" />
             </div>
         </section>
         <!-- Blog area end here -->
@@ -426,7 +317,7 @@
                             / PROJECTS
                         </h5>
                         <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            Exclusive IT Services
+                            Featured Works
                         </h2>
                     </div>
                     <div class="arry-btn d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -443,121 +334,39 @@
                         <div class="swiper-slide">
                             <div class="service-two__item">
                                 <div class="image">
-                                    <img src="{{ asset('assets/images/service/service-image1.jpg') }}" alt="image" />
+                                    <img src="{{ asset('assets/images/service/cbisikd.png') }}" alt="image" />
                                 </div>
                                 <div class="service-two__content">
-
-
                                     <h4>
-                                        <a href="service-details.html" class="primary-hover">Database Security</a>
+                                        <a href="service-details.html" class="primary-hover">UI/UX Development</a>
                                     </h4>
                                     <p>
-                                        Pellentesque nec the condimentum nec lorem nulla augue est
-                                        ultricies ac iaculis.
+                                        We do UI/UX development for Fenom Dashboard for Cybertrend (Kemkeu Project)
                                     </p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a class="read-more-btn" href="service-details.html"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service-two__item">
                                 <div class="image">
-                                    <img src="{{ asset('assets/images/service/service-image2.jpg') }}" alt="image" />
+                                    <img src="{{ asset('assets/images/service/daffanaweb.png') }}" alt="image" />
                                 </div>
                                 <div class="service-two__content">
-
-
                                     <h4>
-                                        <a href="service-details.html" class="primary-hover">IT Consultancy</a>
+                                        <a href="service-details.html" class="primary-hover">Web Development</a>
                                     </h4>
                                     <p>
-                                        Pellentesque nec the condimentum nec lorem nulla augue est
-                                        ultricies ac iaculis.
+                                        Website for Daffana Tour
                                     </p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
+                                    <a class="read-more-btn" href="service-details.html"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="{{ asset('assets/images/service/service-image3.jpg') }}" alt="image" />
-                                </div>
-                                <div class="service-two__content">
 
 
-                                    <h4>
-                                        <a href="service-details.html" class="primary-hover">App Development</a>
-                                    </h4>
-                                    <p>
-                                        Pellentesque nec the condimentum nec lorem nulla augue est
-                                        ultricies ac iaculis.
-                                    </p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="{{ asset('assets/images/service/service-image1.jpg') }}" alt="image" />
-                                </div>
-                                <div class="service-two__content">
-
-                                    <h4>
-                                        <a href="service-details.html" class="primary-hover">Database Security</a>
-                                    </h4>
-                                    <p>
-                                        Pellentesque nec the condimentum nec lorem nulla augue est
-                                        ultricies ac iaculis.
-                                    </p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="{{ asset('assets/images/service/service-image2.jpg') }}" alt="image" />
-                                </div>
-                                <div class="service-two__content">
-
-                                    <h4>
-                                        <a href="service-details.html" class="primary-hover">IT Consultancy</a>
-                                    </h4>
-                                    <p>
-                                        Pellentesque nec the condimentum nec lorem nulla augue est
-                                        ultricies ac iaculis.
-                                    </p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="{{ asset('assets/images/service/service-image3.jpg') }}" alt="image" />
-                                </div>
-                                <div class="service-two__content">
 
 
-                                    <h4>
-                                        <a href="service-details.html" class="primary-hover">App Development</a>
-                                    </h4>
-                                    <p>
-                                        Pellentesque nec the condimentum nec lorem nulla augue est
-                                        ultricies ac iaculis.
-                                    </p>
-                                    <a class="read-more-btn" href="service-details.html">Read More <i
-                                            class="fa-regular fa-arrow-right-long"></i></a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -597,7 +406,7 @@
                             </h2>
                             <div class="d-none d-xl-flex gap-4 justify-content-center text-center mt-5  ">
                                 <a href="contact.html" class="btn-one"
-                                    style="border-radius: 50px; padding: 10px 20px;">Get A Quote</a>
+                                    style="border-radius: 50px; padding: 10px 20px;">Discuss My Project</a>
                             </div>
                             <h3 class="text-black mt-5">Headquarters</h3>
                             <p class="text-black">Kp.Ceger,RT.007/002.Desa/Kelurahan Lebak Wangi, Kec,Sepatan
@@ -612,4 +421,4 @@
             </div>
         </section>
     </main>
-@endsection 
+@endsection

@@ -26,4 +26,8 @@ class LandingPageController extends Controller
     {
         return view('contact');
     }
+    function ourProducts()
+    {
+        return view('ourProducts');
+    }
 }
