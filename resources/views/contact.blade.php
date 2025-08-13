@@ -75,9 +75,8 @@
                         <h4 class="fw-bold">PT. Toffel Tech Asia</h4>
                         <p class="text-primary fw-semibold mb-1">Alamat</p>
                         <p class="text-muted">
-                            Kp. Ceger, RT. 007 RW. 002 No. 44,<br>
-                            Desa/Kelurahan Lebak Wangi,<br>
-                            Sepatan Timur, Banten 15521
+                            Jalan Raya Serpong Nomor 39, RT. 002/RW. 003, Kel. Pakulonan, Kec. Serpong Utara, Kota Tangerang
+                            Selatan, Banten 15325
                         </p>
 
                         <div class="mb-2">

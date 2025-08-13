@@ -405,14 +405,13 @@
                                     Level</span>
                             </h2>
                             <div class="d-none d-xl-flex gap-4 justify-content-center text-center mt-5  ">
-                                <a href="contact.html" class="btn-one"
+                                <a href="#" class="btn-one"
                                     style="border-radius: 50px; padding: 10px 20px;">Discuss My Project</a>
                             </div>
                             <h3 class="text-black mt-5">Headquarters</h3>
-                            <p class="text-black">Kp.Ceger,RT.007/002.Desa/Kelurahan Lebak Wangi, Kec,Sepatan
-                                Timur,Kab,Tangerang 15521</p>
+                            <p class="text-black">Jalan Raya Serpong Nomor 39, RT. 002/RW. 003, Kel. Pakulonan, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15325</p>
                             <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <i class="fa-solid fa-map-marker-alt"></i>
+                              <a href="https://goo.gl/maps/ALPCMEm45p6ZnYZS8">  <i class="fa-solid fa-map-marker-alt"></i></a>
                                 view on google map
                             </h5>
                         </div>

@@ -114,7 +114,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TOFFEL TECH ASIA</title>
+    <title>Toffel Tech Asia</title>
     <!-- Favicon img -->
     <link rel="shortcut icon" href="{{ asset('assets/images/logo/faficon.png') }}" />
     <!-- Bootstarp min css -->
@@ -225,7 +225,7 @@
 
     <!-- Back to top area start here -->
     <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-        <a href="https://wa.me/2085550112" target="_blank">
+        <a href="https://wa.me/208161944538" target="_blank">
             <img src="{{ asset('assets/images/hompage/whatsapp.png') }}" alt="WhatsApp"
                 style="width: 50px; height: 50px;">
         </a>
