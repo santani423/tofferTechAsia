@@ -411,9 +411,9 @@
                             <h3 class="text-black mt-5">Headquarters</h3>
                             <p class="text-black">Jalan Raya Serpong Nomor 39, RT. 002/RW. 003, Kel. Pakulonan, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15325</p>
                             <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms">
-                              <a href="https://goo.gl/maps/ALPCMEm45p6ZnYZS8">  <i class="fa-solid fa-map-marker-alt"></i></a>
+                              <a href="https://goo.gl/maps/ALPCMEm45p6ZnYZS8">  <i class="fa-solid fa-map-marker-alt"></i>
                                 view on google map
-                            </h5>
+                            </h5></a>
                         </div>
                     </div>
                 </div>
