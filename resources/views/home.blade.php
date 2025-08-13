@@ -7,9 +7,9 @@
         <section class="banner-two-area">
             <div class="banner-two__line">
                 <!-- <img
-                                                        class="sway_Y__animation"
-                                                        src="{{ asset('assets/images/banner/banner-line.png') }}"
-                                                            alt="shape" /> -->
+                                                            class="sway_Y__animation"
+                                                            src="{{ asset('assets/images/banner/banner-line.png') }}"
+                                                                alt="shape" /> -->
             </div>
             <div class="swiper banner__slider">
                 <div class="swiper-wrapper"
@@ -23,6 +23,40 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="banner-two__content text-center">
+                                <h1 data-animation="fadeInUp" data-delay=".5s"
+                                    style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                                    Turning Ideas Into Reality
+                                </h1>
+                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
+                                    Our development team utilizes the latest technology to
+                                    ensure that your applications are high performing and
+                                    user-friendly. which meets the highest standards
+                                </p>
+                                <div style="
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: white;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                                    class="mt-5">
+                                    <i class="fa-solid fa-arrow-down" style="color: black"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="banner-two__content text-center">
+                                <!-- <h4
+                                                    data-animation="fadeInUp"
+                                                    data-delay=".3s"
+                                                    class="text-white mb-20"
+                                                  >
+                                                    TECHNOLOGY RELETED CONSULTANCY
+                                                  </h4> -->
                                 <h1 data-animation="fadeInUp" data-delay=".5s"
                                     style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
                                     Turning Ideas Into Reality
@@ -81,45 +115,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="container">
-                            <div class="banner-two__content text-center">
-                                <!-- <h4
-                                            data-animation="fadeInUp"
-                                            data-delay=".3s"
-                                            class="text-white mb-20"
-                                          >
-                                            TECHNOLOGY RELETED CONSULTANCY
-                                          </h4> -->
-                                <h1 data-animation="fadeInUp" data-delay=".5s"
-                                    style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
-                                    Turning Ideas Into Reality
-                                </h1>
-                                <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                                    Our development team utilizes the latest technology to
-                                    ensure that your applications are high performing and
-                                    user-friendly. which meets the highest standards
-                                </p>
-                                <div style="
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 50%;
-                    background-color: white;
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                  "
-                                    class="mt-5">
-                                    <i class="fa-solid fa-arrow-down" style="color: black"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- <div class="banner__dot-wrp banner-two__dot-wrp">
-                                                      <div class="dot-light banner__dot"></div>
-                                                    </div> -->
+                                                          <div class="dot-light banner__dot"></div>
+                                                        </div> -->
         </section>
         <!-- Banner area end here -->
 
@@ -409,11 +409,14 @@
                                     style="border-radius: 50px; padding: 10px 20px;">Discuss My Project</a>
                             </div>
                             <h3 class="text-black mt-5">Headquarters</h3>
-                            <p class="text-black">Jalan Raya Serpong Nomor 39, RT. 002/RW. 003, Kel. Pakulonan, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15325</p>
-                            <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms">
-                              <a href="https://goo.gl/maps/ALPCMEm45p6ZnYZS8">  <i class="fa-solid fa-map-marker-alt"></i>
-                                view on google map
-                            </h5></a>
+                            <p class="text-black">Jalan Raya Serpong Nomor 39, RT. 002/RW. 003, Kel. Pakulonan, Kec.
+                                Serpong Utara, Kota Tangerang Selatan, Banten 15325</p>
+                            <a href="https://goo.gl/maps/ALPCMEm45p6ZnYZS8">
+                                <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <i class="fa-solid fa-map-marker-alt"></i>
+                                    view on google map
+                                </h5>
+                            </a>
                         </div>
                     </div>
                 </div>
