@@ -30,35 +30,25 @@
                               href="#" role="button" aria-haspopup="false" aria-expanded="false">
                               <img src="{{ asset('template/assets/images/users/avatar-6.jpg') }}" alt="user"
                                   class="rounded-circle">
-                              <span class="d-none d-md-inline-block ml-1">David M. Bailey <i
-                                      class="mdi mdi-chevron-down"></i> </span>
+                              <span class="d-none d-md-inline-block ml-1">
+                                  David M. Bailey <i class="mdi mdi-chevron-down"></i>
+                              </span>
                           </a>
                           <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown">
-                              <a class="dropdown-item" href="#"><i class="dripicons-user text-muted"></i>
-                                  Profile</a>
-                              <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted"></i> My
-                                  Wallet</a>
-                              <a class="dropdown-item" href="#"><span
-                                      class="badge badge-success float-right m-t-5">5</span><i
-                                      class="dripicons-gear text-muted"></i> Settings</a>
-                              <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted"></i> Lock
-                                  screen</a>
+
                               <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted"></i>
-                                  Logout</a>
+
+                              <!-- Logout Form -->
+                              <form id="logout-form" action="{{ route('cms.logout') }}" method="POST" class="d-none">
+                                  @csrf
+                              </form>
+                              <a class="dropdown-item" href="#"
+                                  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                  <i class="dripicons-exit text-muted"></i> Logout
+                              </a>
                           </div>
                       </li>
-                      <li class="menu-item list-inline-item">
-                          <!-- Mobile menu toggle-->
-                          <a class="navbar-toggle nav-link">
-                              <div class="lines">
-                                  <span></span>
-                                  <span></span>
-                                  <span></span>
-                              </div>
-                          </a>
-                          <!-- End mobile menu toggle-->
-                      </li>
+
 
                   </ul>
 

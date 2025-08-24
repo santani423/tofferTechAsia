@@ -30,6 +30,7 @@ Route::prefix('cms')->name('cms.')->group(function () {
     Route::get('/', [HomeController::class, 'login'])->name('login');
     Route::get('/dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
     Route::get('/portofolio', [HomeController::class, 'portofolio'])->name('portofolio');
+    Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
 
   
 

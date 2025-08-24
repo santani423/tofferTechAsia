@@ -306,74 +306,7 @@
         </section>
         <!-- Blog area end here -->
         <!-- Service area start here -->
-        <section class="service-two-area secondary-bg pt-120 pb-120">
-            <div class="footer__shape-solid-right wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img class="sway_Y__animation" src="{{ asset('assets/images/hompage/img2.png') }}"
-                    style="width: 50%; height: auto; float: right;" alt="shape">
-            </div>
-            <div class="container">
-                <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
-                    <div class="section-header">
-                        <h5 class="wow fadeInLeft " data-wow-delay="00ms" data-wow-duration="1500ms"
-                            style="color: #686868;">
-
-                            / PROJECTS
-                        </h5>
-                        <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            Featured Works
-                        </h2>
-                    </div>
-                    <div class="arry-btn d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <button class="arry-prev service__arry-prev">
-                            <i class="fa-light fa-chevron-left"></i>
-                        </button>
-                        <button class="arry-next service__arry-next active">
-                            <i class="fa-light fa-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="swiper service-two__slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="{{ asset('assets/images/service/cbisikd.png') }}" alt="image" />
-                                </div>
-                                <div class="service-two__content">
-                                    <h4>
-                                        <a href="service-details.html" class="primary-hover">UI/UX Development</a>
-                                    </h4>
-                                    <p>
-                                        We do UI/UX development for Fenom Dashboard for Cybertrend (Kemkeu Project)
-                                    </p>
-                                    <a class="read-more-btn" href="service-details.html"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-two__item">
-                                <div class="image">
-                                    <img src="{{ asset('assets/images/service/daffanaweb.png') }}" alt="image" />
-                                </div>
-                                <div class="service-two__content">
-                                    <h4>
-                                        <a href="service-details.html" class="primary-hover">Web Development</a>
-                                    </h4>
-                                    <p>
-                                        Website for Daffana Tour
-                                    </p>
-                                    <a class="read-more-btn" href="service-details.html"></a>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include('_homePortofolio')
 
         <!-- Service area end here -->
         <!-- Quote area start here -->

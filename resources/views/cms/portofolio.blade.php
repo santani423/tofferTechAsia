@@ -8,13 +8,12 @@
                     <div class="col-md-8">
                         <h4 class="page-title m-0">Portofolio</h4>
                     </div>
-                    <div class="col-md-4">
-                        <div class="float-right d-none d-md-block">
+                    <div class="col-md-4"> 
                             <button class="btn btn-primary" type="button" data-toggle="modal"
                                 data-target="#portofolioModal" id="btnAdd">
                                 Tambah Portofolio
                             </button>
-                        </div>
+                         
                     </div>
                 </div>
             </div>
