@@ -39,25 +39,32 @@
 @endsection
 
 @push('scripts')
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
         const container = document.getElementById("portofolio-container");
 
         fetch("{{ url('/api/portofolio') }}") // endpoint API Laravel
             .then(response => response.json())
             .then(data => {
                 container.innerHTML = ""; // kosongkan dulu
+                console.log(data);
 
-                if (data.length === 0) {
-                    container.innerHTML = `<div class="col-12 text-center"><p>Tidak ada data portofolio.</p></div>`;
+                if (!data.data || data.data.length === 0) {
+                    container.innerHTML =
+                        `<div class="col-12 text-center"><p>Tidak ada data portofolio.</p></div>`;
                     return;
                 }
 
-                data.forEach(item => {
+                data.data.forEach(item => {
+                    // Buat path gambar
+                    let imageUrl = item.image 
+                        ? `{{ url('') }}/${item.image}` 
+                        : 'https://via.placeholder.com/300';
+
                     container.innerHTML += `
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
-                                <img src="${item.image_url ?? 'https://via.placeholder.com/300'}" 
+                                <img src="${imageUrl}" 
                                      class="card-img-top" alt="${item.title}">
                                 <div class="card-body">
                                     <h5 class="card-title">${item.title}</h5>
@@ -76,4 +83,5 @@
             });
     });
 </script>
+
 @endpush

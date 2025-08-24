@@ -79,6 +79,6 @@
 
         <!-- App js -->
         <script src="{{ asset('template/assets/js/app.js') }}"></script>
-
+        @stack('scripts')
     </body>
 </html>
