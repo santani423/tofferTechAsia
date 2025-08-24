@@ -28,6 +28,8 @@ Route::get('/our-products', [LandingPageController::class, 'ourProducts']);
 Route::prefix('cms')->name('cms.')->group(function () {
     // Dashboard
     Route::get('/', [HomeController::class, 'login'])->name('login');
+    Route::get('/dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
+    Route::get('/portofolio', [HomeController::class, 'portofolio'])->name('portofolio');
 
   
 

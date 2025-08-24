@@ -10,4 +10,13 @@ class HomeController extends Controller
     {
         return view('cms.login');
     }
+    public function dashboard()
+    {
+        return view('cms.dashboard');
+    }
+
+    public function portofolio()
+    {
+        return view('cms.portofolio');
+    }
 }
