@@ -1,0 +1,108 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Documentation",
+        "description": "Dokumentasi API untuk TofferTechAsia",
+        "contact": {
+            "email": "support@toffertechasia.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://my-default-host.com",
+            "description": "Main API Server"
+        }
+    ],
+    "paths": {
+        "/api/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Login user",
+                "operationId": "222b2625838e3c57e017987f73598fda",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "email",
+                                    "password"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email",
+                                        "example": "user@example.com"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "format": "password",
+                                        "example": "password123"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful login",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "user": {
+                                            "properties": {
+                                                "id": {
+                                                    "type": "integer"
+                                                },
+                                                "name": {
+                                                    "type": "string"
+                                                },
+                                                "email": {
+                                                    "type": "string",
+                                                    "format": "email"
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        "token": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Invalid credentials"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Auth",
+            "description": "Auth"
+        }
+    ]
+}
