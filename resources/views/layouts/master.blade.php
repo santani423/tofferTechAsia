@@ -169,7 +169,7 @@
                             <li><a href="{{ url('/about-us') }}">About Us</a></li>
                            
                             <li><a href="{{ url('/portofolio') }}">Portofolio</a></li>
-                            <li><a href="{{ url('/our-products') }}">Produk & Layanan</a></li>
+                            <li><a href="{{ url('/our-products') }}">Product and Services</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -5,13 +5,15 @@
     <main>
         <!-- Banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="{{ asset('assets/images/banner/banner-inner-page.jpg') }}" style="background: rgba(0, 7, 73, 50)">
+            data-background="{{ asset('assets/images/banner/banner-inner-page.jpg') }}"
+            style="background: rgba(0, 7, 73, 50)">
             <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img class="sway__animationX" src="{{ asset('assets/images/about/Deep dive - Digital infrastructure - Banner 1.png') }}"
+                <img class="sway__animationX"
+                    src="{{ asset('assets/images/about/Deep dive - Digital infrastructure - Banner 1.png') }}"
                     alt="shape" />
             </div>
             <div class="container text-center">
-                <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms" >
+                <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     About Us
                 </h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -32,44 +34,51 @@
                                     Our Story
                                 </h3>
                                 <p class="mb-20 mt-20" style="color: black;">
-                                    Kami adalah perusahaan teknologi yang berdedikasi untuk menghadirkan solusi inovatif dan
-                                    berbasis teknologi tinggi yang membantu bisnis dan individu mengoptimalkan potensi
-                                    mereka. Dengan menggabungkan pengetahuan mendalam di bidang teknologi, kreativitas, dan
-                                    inovasi, kami menciptakan produk dan layanan yang dapat menjawab berbagai kebutuhan
-                                    digital di era modern.
-                                    Visi Kami Menjadi perusahaan terdepan dalam menyediakan solusi teknologi yang mendukung
-                                    transformasi digital di seluruh sektor, serta memajukan bisnis dengan keunggulan
-                                    teknologi yang kami hadirkan.
+                                    To become a leading company in
+                                    providing technology solutions that
+                                    drive digital transformation across all
+                                    sectors, while advancing businesses
+                                    through the technological excellence
+                                    we deliver.
+                                </p>
+                                <p class="mb-20 mt-20" style="color: black;">
+                                    We are a technology company dedicated to delivering innovative, high-tech
+                                    solutions that empower businesses and individuals to optimize their full potential.
+                                    By combining deep expertise in technology, creativity, and innovation, we create
+                                    products and services designed to meet diverse digital needs in the modern era.
+                                    PT. Toffel Tech Asia operates in the Information and Communication Technology (ICT)
+                                    sector, focusing on software-based digital solutions, system integration, and
+                                    technology consulting services for both public and private sectors.
                                 </p>
                                 <ul style="color: black;">
-                                    <li>Misi Kami
+                                    <li>Mission
                                         <ol>
-                                            <li>Mengembangkan solusi teknologi yang inovatif dan mudah digunakan.</li>
-                                            <li>Memberikan layanan terbaik kepada klien untuk mencapai tujuan digital
-                                                mereka.</li>
-                                            <li>Membangun ekosistem teknologi yang inklusif dan berkelanjutan.</li>
-                                            <li>Memberikan nilai tambah pada bisnis melalui otomatisasi, AI, dan teknologi
-                                                data.</li>
+                                            <li>To become a leading company in
+                                                providing technology solutions that
+                                                drive digital transformation across all
+                                                sectors, while advancing businesses
+                                                through the technological excellence
+                                                we deliver.</li>
                                         </ol>
                                     </li>
                                     <li>Nilai-Nilai Kami</li>
                                 </ul>
                                 <ol>
-                                    <li>Inovasi: Kami selalu berupaya mengembangkan ide dan teknologi terbaru untuk terus
-                                        memberikan solusi terbaik.</li>
-                                    <li>Kolaborasi: Kami percaya pada kerja sama yang kuat, baik dengan tim internal maupun
-                                        mitra bisnis.</li>
-                                    <li>Keberlanjutan: Kami berkomitmen untuk membangun solusi yang tidak hanya berguna
-                                        tetapi juga berkelanjutan dalam jangka panjang.</li>
-                                    <li>Integritas: Kepercayaan dan transparansi adalah pondasi hubungan kami dengan klien.
-                                    </li>
+                                    <li>To develop innovative and
+                                        user-friendly technology solutions.</li>
+                                    <li>To provide the best services to clients
+                                        in achieving their digital goals.</li>
+                                    <li>To build an inclusive and sustainable
+                                        technology ecosystem.</li>
+                                    <li>To deliver added value to businesses
+                                        through automation, AI, and data.</li>
                                 </ol>
-                                <p class="mb-20 mt-20">
+                                {{-- <p class="mb-20 mt-20">
                                     Kami bekerja dengan berbagai sektor, termasuk perbankan, e-commerce, kesehatan, dan
                                     manufaktur. Melalui pengalaman kami yang luas dan tim yang terdiri dari para profesional
                                     teknologi terbaik, kami siap membantu bisnis Anda tumbuh dan berkembang dalam era
                                     digital ini.
-                                </p>
+                                </p> --}}
 
 
                                 <div class="service-two-area secondary-bg pt-120 pb-120"
@@ -152,7 +161,7 @@
                                     </div>
                                 </div>
 
-                                <h3 class="blog-single__title mt-20">
+                                {{-- <h3 class="blog-single__title mt-20">
                                     Why us
                                 </h3>
                                 <div class="row mt-4">
@@ -194,7 +203,7 @@
                                             mengorbankan kualitas produk dan layanan.
                                         </p>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

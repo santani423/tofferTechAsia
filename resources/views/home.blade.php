@@ -7,9 +7,9 @@
         <section class="banner-two-area">
             <div class="banner-two__line">
                 <!-- <img
-                                                            class="sway_Y__animation"
-                                                            src="{{ asset('assets/images/banner/banner-line.png') }}"
-                                                                alt="shape" /> -->
+                                                                    class="sway_Y__animation"
+                                                                    src="{{ asset('assets/images/banner/banner-line.png') }}"
+                                                                        alt="shape" /> -->
             </div>
             <div class="swiper banner__slider">
                 <div class="swiper-wrapper"
@@ -51,12 +51,12 @@
                         <div class="container">
                             <div class="banner-two__content text-center">
                                 <!-- <h4
-                                                    data-animation="fadeInUp"
-                                                    data-delay=".3s"
-                                                    class="text-white mb-20"
-                                                  >
-                                                    TECHNOLOGY RELETED CONSULTANCY
-                                                  </h4> -->
+                                                            data-animation="fadeInUp"
+                                                            data-delay=".3s"
+                                                            class="text-white mb-20"
+                                                          >
+                                                            TECHNOLOGY RELETED CONSULTANCY
+                                                          </h4> -->
                                 <h1 data-animation="fadeInUp" data-delay=".5s"
                                     style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
                                     Turning Ideas Into Reality
@@ -85,12 +85,12 @@
                         <div class="container">
                             <div class="banner-two__content text-center">
                                 <!-- <h4
-                                                data-animation="fadeInUp"
-                                                data-delay=".3s"
-                                                class="text-white mb-20"
-                                              >
-                                                TECHNOLOGY RELETED CONSULTANCY
-                                              </h4> -->
+                                                        data-animation="fadeInUp"
+                                                        data-delay=".3s"
+                                                        class="text-white mb-20"
+                                                      >
+                                                        TECHNOLOGY RELETED CONSULTANCY
+                                                      </h4> -->
                                 <h1 data-animation="fadeInUp" data-delay=".5s"
                                     style="background: linear-gradient(to right, #41DBD1 10%, #1A67D4 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">
                                     Turning Ideas Into Reality
@@ -118,8 +118,8 @@
                 </div>
             </div>
             <!-- <div class="banner__dot-wrp banner-two__dot-wrp">
-                                                          <div class="dot-light banner__dot"></div>
-                                                        </div> -->
+                                                                  <div class="dot-light banner__dot"></div>
+                                                                </div> -->
         </section>
         <!-- Banner area end here -->
 
@@ -135,12 +135,15 @@
                             </div>
                             <div class="col-md-6">
                                 <p>
-                                    We are a dynamic team of tech enthusiasts, developers, and creative thinkers who are
-                                    passionate about creating custom software solutions that drive business success. Toffel
-                                    Tech Asia is dedicated to delivering cutting-edge software products and services
-                                    tailored to our clients’ unique needs. Whether you’re a startup looking to build your
-                                    first app or an established company looking to streamline operations, our team is ready
-                                    to bring your vision to life.
+                                    We are a technology company dedicated to delivering innovative, high-tech
+                                    solutions that empower businesses and individuals to optimize their full potential.
+                                    By combining deep expertise in technology, creativity, and innovation, we create
+                                    products and services designed to meet diverse digital needs in the modern era.
+                                </p>
+                                <p  class="mt-3">
+                                    PT. Toffel Tech Asia operates in the Information and Communication Technology (ICT)
+                                    sector, focusing on software-based digital solutions, system integration, and
+                                    technology consulting services for both public and private sectors.
                                 </p>
                                 <button type="button" class="btn btn-outline-dark mt-5 text-white"
                                     style="border-radius: 50px; border-color: white;">Discover More</button>

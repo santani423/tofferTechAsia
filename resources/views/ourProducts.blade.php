@@ -17,11 +17,11 @@
 
             <!-- Banner Text -->
             <div class="container text-center text-white position-relative z-2">
-                <h2 class="wow fadeInUp display-4 fw-bold mb-3" data-wow-delay="0ms">Produk & Layanan</h2>
+                <h2 class="wow fadeInUp display-4 fw-bold mb-3" data-wow-delay="0ms">Product and Services</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms">
                     <a href="/" class="text-white text-decoration-none fw-semibold">Home</a>
                     <span class="mx-2"><i class="fa-regular fa-angles-right"></i></span>
-                    <span>Produk & Layanan</span>
+                    <span>Product and Services</span>
                 </div>
             </div>
         </section>
@@ -33,22 +33,44 @@
                 <div class="row g-4">
                     <div class="col-12">
                         <!-- Produk -->
-                        <h3 class="fw-bold text-primary border-start border-4 ps-3 mb-4">Produk</h3>
+                        <h3 class="fw-bold text-primary border-start border-4 ps-3 mb-4">Product</h3>
                         <ol class="ps-3">
                             <li class="mb-4">
-                                <strong>CBAS (Credit Bureau Analysis System)</strong>
+                                <strong>CBAS (Credit Bureau Automation System)</strong>
                                 <p class="mb-0 mt-2">
-                                    Sebuah sistem otomatis yang membantu lembaga keuangan menganalisis
-                                    kredit dengan mengelola data SLIK OJK, mengambil data peminjam dan riwayat
-                                    pinjaman, serta
+                                    An automated system that helps financial institutions analyze credit by managing
+                                    OJK SLIK data, retrieving borrower information and loan history, and assessing credit-
+                                    worthiness.
                                 </p>
                             </li>
 
                             <li class="mb-4">
-                                <strong>ERP Construction</strong>
-                                <p class="mb-2">Aplikasi ERP untuk manajemen proyek konstruksi dengan modul:</p>
+                                <strong>General Ledger (GL) System</strong>
+                                <p class="mb-0 mt-2">
+                                    It’s the company’s core financial recording system. All financial transactions are
+                                    recorded in the form of debit and credit journals, and the system automatically
+                                    generates key reports such as the Balance Sheet and Income Statement.
+                                </p>
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="feature-icon me-3"><i class="bi bi-check2-square"></i></span>
+                                    <h5 class="mb-0" style="color: #333;">With the GL System, companies can:</h5>
+                                </div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><i class="bi bi-check2 me-2"></i>Record daily transactions neatly
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check2 me-2"></i>Presenting financial reports quickly
+                                        and accurately</li>
+                                    <li class="mb-2"><i class="bi bi-check2 me-2"></i>Serve as the foundation for
+                                        developing other accounting modules (pay-
+                                        ables, receivables, assets, etc.)</li>
+                                </ul>
+                            </li>
+
+                            <li class="mb-4">
+                                <strong>Untrix</strong>
+                                {{-- <p class="mb-2">Aplikasi ERP untuk manajemen proyek konstruksi dengan modul:</p> --}}
                                 <div class="row g-3" style="color: black">
-                                    @foreach (['Budgeting', 'Vendor Management', 'Accounting', 'Procurement', 'HR & Payroll', 'Project Management'] as $module)
+                                    @foreach (['E-Procurement ', 'Procurement', 'Budget', 'Account Payable', 'Fixed Asset ', 'Prepaid', 'Inventory', 'Tax', 'Accounting'] as $module)
                                         <div class="col-lg-4 col-md-6">
                                             <div class="card shadow-sm border-0 h-100 hover-shadow"
                                                 style="border-radius: 12px;">
@@ -65,21 +87,21 @@
                             <li class="mb-4">
                                 <strong>CMMS (Computerized Maintenance Management System)</strong>
                                 <p class="mb-0 mt-2">
-                                    Sistem pemeliharaan aset yang membantu meningkatkan efisiensi operasional dan waktu
-                                    aktif peralatan.
+                                    An asset maintenance system that helps improve operational efficiency and
+                                    equipment uptime.
                                 </p>
                             </li>
 
                             <li>
                                 <strong>Chatbot</strong>
                                 <p class="mb-0 mt-2">
-                                    Chatbot pintar untuk berbagai kebutuhan interaksi bisnis dan pelanggan.
+                                    An intelligent chatbot for various business and customer interaction needs.
                                 </p>
                             </li>
                         </ol>
 
                         <!-- Layanan -->
-                        <h3 class="fw-bold text-primary border-start border-4 ps-3 mt-5 mb-4">Layanan</h3>
+                        <h3 class="fw-bold text-primary border-start border-4 ps-3 mt-5 mb-4">Services</h3>
                         <div class="row g-4">
                             @php
                                 $services = [
@@ -87,26 +109,36 @@
                                         'icon' => 'fas fa-code',
                                         'title' => 'Development',
                                         'desc' => [
-                                            'Implementasi produk',
-                                            'Custom development',
-                                            'Pengembangan website & mobile apps',
+                                            'Product Implemntation',
+                                            'Custom Development',
+                                            'Website & Mobile Apps Development',
                                         ],
                                     ],
+                                    // [
+                                    //     'icon' => 'fas fa-network-wired',
+                                    //     'title' => 'Network & Infrastructure',
+                                    //     'desc' => ['Instalasi dan pemeliharaan jaringan dan server'],
+                                    // ],
                                     [
-                                        'icon' => 'fas fa-network-wired',
+                                        'icon' => 'fas fa-microchip',
                                         'title' => 'Network & Infrastruktur',
-                                        'desc' => ['Instalasi dan pemeliharaan jaringan dan server'],
+                                        'desc' => ['Network and Server Installation & Maintenance'],
                                     ],
                                     [
                                         'icon' => 'fas fa-microchip',
-                                        'title' => 'Pengembangan Solusi IoT',
-                                        'desc' => ['Menyediakan solusi IoT sesuai kebutuhan bisnis'],
+                                        'title' => 'IoT Solution Development',
+                                        'desc' => [],
                                     ],
                                     [
                                         'icon' => 'fas fa-user-tie',
                                         'title' => 'Pro Services',
                                         'desc' => [
-                                            'Penyediaan tenaga ahli (developer, network engineer, dll.) sesuai kebutuhan proyek klien',
+                                            'Provision of skilled
+professionals
+(developers, network
+engineers, etc.)
+tailored
+to client project needs.',
                                         ],
                                     ],
                                 ];
